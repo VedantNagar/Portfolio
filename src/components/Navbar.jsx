@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 mb-20 flex items-center justify-between pt-3 pb-2 backdrop-blur shadow-lg z-20 pr-9">
-        <div className="mx-16">
+        <div className="mx-11">
           <img src={pic} alt="VN Icon" className="w-14 h-14 "></img>
         </div>
         <div className="flex space-x-4">
