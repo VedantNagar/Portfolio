@@ -10,14 +10,17 @@ const Languages = () => {
           <h2 className="text-white text-2xl">Programming Languages : </h2>
         </div>
         <div className="flex flex-wrap gap-4 items-center justify-center ml-10">
-          <div className="rounded-3xl border-4 p-3">
-            <SiCoursera title="C" className="text-6xl text-blue-600" />
+          <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
+            <SiCoursera
+              title="C"
+              className="text-6xl text-blue-600 hover:shadow-lg"
+            />
           </div>
-          <div className="rounded-3xl border-4 p-3">
-            <SiCplusplus title="C++" className="text-6xl text-blue-600" />
+          <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
+            <SiCplusplus title="C++" className="text-6xl text-blue-800" />
           </div>
-          <div className="rounded-3xl border-4 p-3">
-            <SiPython title="Python" className="text-6xl text-blue-600" />
+          <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
+            <SiPython title="Python" className="text-6xl text-blue-400" />
           </div>
         </div>
       </div>
