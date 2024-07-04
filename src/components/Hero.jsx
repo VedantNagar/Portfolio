@@ -1,9 +1,9 @@
 import React from "react";
-
+import pic from "../assets/hero-img.png";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-wrap border-neutral-900">
+      <div className="flex flex-wrap border-neutral-900 pl-8">
         <div className="flex flex-col items-center lg:items-start lg:w-1/2">
           <h1 className="text-6xl font-thin tracking-tight text-white lg:mt-14 mb-16">
             Vedant Nagar
@@ -22,6 +22,13 @@ const Hero = () => {
             praesentium a sint eum rem. Ipsum consequatur enim suscipit modi
             rerum in sapiente quibusdam ullam asperiores ab.
           </p>
+        </div>
+        <div className="flex justify-center w-full lg:w-2/5">
+          <img
+            src={pic}
+            alt="Coding"
+            className=" lg:h-4/5 object-cover pt-10"
+          />
         </div>
       </div>
     </>
