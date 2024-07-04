@@ -3,9 +3,9 @@ import pic from "../assets/hero-img.png";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-wrap border-neutral-900 pl-8 pt-24">
+      <div className="flex flex-wrap border-neutral-900 pl-6 pt-24">
         <div className="flex flex-col items-center lg:items-start lg:w-1/2">
-          <h1 className="text-6xl font-thin tracking-tight text-white lg:mt-14 mb-16">
+          <h1 className="text-6xl font-thin tracking-tight text-white lg:mt-14 mb-16 text-center">
             Vedant Nagar
           </h1>
           <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-3xl tracking-tight text-transparent bg-clip-text ">

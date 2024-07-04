@@ -8,12 +8,15 @@ import { FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
+import Languages from "./Languages";
 
 const TechStack = () => {
   return (
     <>
       <div>
-        <h1 className="my-20 text-center text-4xl text-white">Tech Stack</h1>
+        <h1 className="mt-20 mb-14 text-center text-4xl text-white font-semibold">
+          Tech Stack
+        </h1>
         <div className="flex flex-wrap gap-4 items-center justify-center">
           <div className="rounded-3xl border-4 p-3">
             <SiMongodb className="text-6xl text-green-500" />
@@ -46,14 +49,8 @@ const TechStack = () => {
             <SiMysql className="text-6xl text-blue-500" />
           </div>
         </div>
-        <div className="flex flex-wrap  items-start">
-          <h3 className="text-white">Programming Languages :</h3>
-          <div className="flex gap-4 items-center">
-            <div className="rounded-3xl border-4 p-3">
-              <IoLogoJavascript className="text-6xl text-yellow-500" />
-            </div>
-          </div>
-        </div>
+        {/* Programming Languages */}
+        <Languages />
       </div>
     </>
   );
