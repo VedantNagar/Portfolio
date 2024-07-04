@@ -6,7 +6,7 @@ import { CgMail } from "react-icons/cg";
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 mb-20 flex items-center justify-between pt-6 pb-2 backdrop-blur shadow-lg z-20 ">
+      <nav className="fixed top-0 left-0 right-0 mb-20 flex items-center justify-between pt-3 pb-2 backdrop-blur shadow-lg z-20 pr-9">
         <div></div>
         <div className="flex space-x-4">
           <a
