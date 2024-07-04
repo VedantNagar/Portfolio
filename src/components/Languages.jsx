@@ -11,13 +11,13 @@ const Languages = () => {
         </div>
         <div className="flex flex-wrap gap-4 items-center justify-center ml-10">
           <div className="rounded-3xl border-4 p-3">
-            <SiCoursera className="text-6xl text-blue-600" />
+            <SiCoursera title="C" className="text-6xl text-blue-600" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <SiCplusplus className="text-6xl text-blue-600" />
+            <SiCplusplus title="C++" className="text-6xl text-blue-600" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <SiPython className="text-6xl text-blue-600" />
+            <SiPython title="Python" className="text-6xl text-blue-600" />
           </div>
         </div>
       </div>
