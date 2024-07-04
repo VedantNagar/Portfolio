@@ -13,6 +13,12 @@ const Hero = () => {
           </span>
           <p className="my-2 py-4 font-light tracking-tight lg:pl-0 text-white">
             A Fullstack web developer with a passion for building beautiful and
+            functional websites. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Porro, accusamus nemo dolorum magni error maiores
+            tenetur quisquam exercitationem sequi architecto quasi similique
+            vel. Facere ea enim accusamus nulla, unde numquam eaque dolor
+            excepturi quod placeat nihil totam non distinctio sit dolore quo!
+            Incidunt doloribus odit, pariatur eveniet ad est quo.
           </p>
         </div>
         <div className="flex justify-center w-full lg:w-2/5">
