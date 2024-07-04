@@ -19,34 +19,40 @@ const TechStack = () => {
         </h1>
         <div className="flex flex-wrap gap-4 items-center justify-center">
           <div className="rounded-3xl border-4 p-3">
-            <SiMongodb className="text-6xl text-green-500" />
+            <SiMongodb title="MongoDB" className="text-6xl text-green-500" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <SiExpress className="text-6xl text-gray-500" />
+            <SiExpress title="Express.js" className="text-6xl text-gray-500" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <FaReact className="text-6xl text-blue-500" />
+            <FaReact title="React" className="text-6xl text-blue-500" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <FaNodeJs className="text-6xl text-green-500" />
+            <FaNodeJs title="Node.js" className="text-6xl text-green-500" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <IoLogoJavascript className="text-6xl text-yellow-500" />
+            <IoLogoJavascript
+              title="JavaScript"
+              className="text-6xl text-yellow-500"
+            />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <FaGitAlt className="text-6xl text-red-500" />
+            <FaGitAlt title="Git" className="text-6xl text-red-500" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <FaGithub className="text-6xl text-white" />
+            <FaGithub title="GitHub" className="text-6xl text-white" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <SiTailwindcss className="text-6xl text-blue-500" />
+            <SiTailwindcss
+              title="Tailwind CSS"
+              className="text-6xl text-blue-500"
+            />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <FaHtml5 className="text-6xl text-orange-600" />
+            <FaHtml5 title="HTML5" className="text-6xl text-orange-600" />
           </div>
           <div className="rounded-3xl border-4 p-3">
-            <SiMysql className="text-6xl text-blue-500" />
+            <SiMysql title="MySQL" className="text-6xl text-blue-500" />
           </div>
         </div>
         {/* Programming Languages */}
