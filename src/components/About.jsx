@@ -3,7 +3,7 @@ import pic from "../assets/hero-img.png";
 const About = () => {
   return (
     <>
-      <div className="bg-slate-900 pb-4 w-screen pt-4">
+      <div className=" pb-4 w-screen pt-4">
         <h2 className="my-auto text-center text-4xl pb-4 text-white">
           About Me
         </h2>
