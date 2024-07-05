@@ -39,14 +39,16 @@ const Contact = () => {
       <div className="flex flex-wrap m-28">
         <div className="flex text-white lg:w-1/2">
           <div className="font-mono text-center">
-            <h2 className="font-bold text-6xl m-2">Get in Touch</h2>
-            <h3 className="mx-2 my-6">I'd Love to hear from you!</h3>
+            <h2 className="font-bold text-6xl m-2">Let's Get in Touch</h2>
+            <h3 className="mx-2 my-6 text-2xl bg-gradient-to-r from-slate-300 to-slate-500 text-transparent bg-clip-text font-semibold">
+              I'd love to hear from you!
+            </h3>
           </div>
         </div>
         <div className="flex flex-col text-white lg:w-1/2">
           <form
             ref={formRef}
-            className="flex flex-col m-2"
+            className="flex flex-col ml-10 lg:m-2"
             onSubmit={sendEmail}
           >
             <label className="text-lg" htmlFor="name">
