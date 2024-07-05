@@ -1,24 +1,24 @@
+import fudo from "../assets/projects/Fudo.png";
+import jobio from "../assets/projects/Jobio.png";
 export const projects = [
   {
-    title: "Medware - Healthcare Companion",
-    description:
-      "A Healthcare Website consisting of a Disease Predictor made in React, Django, Tailwind and Machine Learning.",
-    image: "path-to-your-image-1",
-    link: "#",
-    git: "#",
+    title: "Fudo-Food Delivery App",
+    description: "A MERN stack food delivery project.",
+    image: fudo,
+    link: "https://food-delivery-application-x68l.onrender.com/",
+    git: "https://github.com/VedantNagar/food-delivery-application",
   },
   {
-    title: "Swift Chat App",
+    title: "Jobio",
     description:
-      "A chat app built with WebSocket API and ws lib. MERN Stack with TailwindCSS. Feat includes realtime msg exchange and user authentication with email verification.",
-    image: "path-to-your-image-2",
-    link: "#",
-    git: "#",
+      "A MERN Stack app which can be used for keeping track of jobs applied and its current status.",
+    image: jobio,
+    link: "https://jobs-tracker-app.onrender.com/",
+    git: "https://github.com/VedantNagar/Jobs-API",
   },
   {
-    title: "Vetmedman",
-    description:
-      "A shopping store I created for a freelance client. GithubRepo not available for this private project.",
+    title: "Project 3",
+    description: "Confidential Project",
     image: "path-to-your-image-3",
     link: "#",
     git: "#",
