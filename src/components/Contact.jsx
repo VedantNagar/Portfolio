@@ -1,6 +1,39 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
 
 const Contact = () => {
+  const formRef = useRef();
+  const [error, setError] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_ggjtqv6", "template_6s0xzta", formRef.current, {
+        publicKey: "jkExEPBXGcniWDS7P",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          setError(false);
+          toast.success("Email sent successfully!", {
+            position: "top-center",
+            autoClose: 3000,
+          });
+          formRef.current.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          setError(true);
+          toast.error("Failed to send email. Please try again.", {
+            position: "top-center",
+            autoClose: 3000,
+          });
+        }
+      );
+  };
+
   return (
     <>
       <div className="flex flex-wrap m-28">
@@ -11,7 +44,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex flex-col text-white lg:w-1/2">
-          <form className="flex flex-col m-2">
+          <form
+            ref={formRef}
+            className="flex flex-col m-2"
+            onSubmit={sendEmail}
+          >
             <label className="text-lg" htmlFor="name">
               Name
             </label>
@@ -31,6 +68,7 @@ const Contact = () => {
               name="email"
               id="email"
               placeholder="Your email"
+              required
             />
             <label className="text-lg" htmlFor="message">
               Message
@@ -46,6 +84,9 @@ const Contact = () => {
             <button className="bg-transparent text-blue-400 p-2 m-2 rounded-lg border-4 border-blue-500 hover:bg-blue-500 hover:border-blue-500 hover:text-white transition-transform duration-300 hover:scale-105 lg:mx-2">
               Submit
             </button>
+            {error && (
+              <p className="text-red-500 text-center">Something went wrong!</p>
+            )}
           </form>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
@@ -18,6 +20,7 @@ function App() {
           <Project />
           <TechStack />
           <Contact />
+          <ToastContainer />
         </div>
         <About className="mx-0 px-0" />
       </div>
