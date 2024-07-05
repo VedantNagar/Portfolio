@@ -16,7 +16,7 @@ const Contact = () => {
               Name
             </label>
             <input
-              className="p-2 m-2 rounded-lg text-black"
+              className="p-2 my-2 rounded-lg text-black"
               type="text"
               name="name"
               id="name"
@@ -26,7 +26,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              className="p-2 m-2 rounded-lg text-black"
+              className="p-2 my-2 rounded-lg text-black"
               type="email"
               name="email"
               id="email"
@@ -36,14 +36,14 @@ const Contact = () => {
               Message
             </label>
             <textarea
-              className="p-2 m-2 rounded-lg text-black"
+              className="p-2 my-2 rounded-lg text-black"
               name="message"
               id="message"
               cols="30"
               rows="5"
               placeholder="Your message..."
             ></textarea>
-            <button className="bg-transparent text-blue-400 p-2 m-2 rounded-lg border-4 border-blue-500 hover:bg-blue-500 hover:border-blue-500 hover:text-white transition-transform duration-300 hover:scale-110 lg:mx-7">
+            <button className="bg-transparent text-blue-400 p-2 m-2 rounded-lg border-4 border-blue-500 hover:bg-blue-500 hover:border-blue-500 hover:text-white transition-transform duration-300 hover:scale-105 lg:mx-2">
               Submit
             </button>
           </form>
