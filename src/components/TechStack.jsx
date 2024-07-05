@@ -25,7 +25,7 @@ const TechStack = () => {
             <SiExpress title="Express.js" className="text-6xl text-gray-500" />
           </div>
           <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
-            <FaReact title="React" className="text-6xl text-blue-500" />
+            <FaReact title="React" className="text-6xl text-[#61dafb]" />
           </div>
           <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
             <FaNodeJs title="Node.js" className="text-6xl text-green-500" />

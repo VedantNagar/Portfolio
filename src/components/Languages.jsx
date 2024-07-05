@@ -6,9 +6,11 @@ const Languages = () => {
     <>
       <div className=" flex flex-wrap p-4 my-10">
         <div className="text-center my-auto ml-16">
-          <h2 className="text-white text-2xl">Programming Languages : </h2>
+          <h2 className="text-white lg:text-3xl text-4xl">
+            Programming Languages :
+          </h2>
         </div>
-        <div className="flex flex-wrap gap-4 items-center justify-center ml-40 lg:ml-10 mt-4">
+        <div className="flex flex-wrap gap-4 items-center justify-center ml-28 lg:ml-10 mt-4">
           <div className="rounded-3xl border-4 p-3 hover:scale-110 transition-transform duration-300">
             <SiCoursera
               title="C"
