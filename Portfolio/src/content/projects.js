@@ -27,7 +27,7 @@ export const projects = [
     git: "https://github.com/VedantNagar/Todo-List",
   },
   {
-    title: "Weather Application",
+    title: "Weather App",
     description: "Simple Weather app made using React and OpenWeather API.",
     image: weather,
     link: "https://weather-app-1-3df5.onrender.com/",
