@@ -1,5 +1,8 @@
 import fudo from "../assets/projects/Fudo.png";
 import jobio from "../assets/projects/Jobio.png";
+import todo from "../assets/projects/Todo.png";
+import weather from "../assets/projects/weather.png";
+
 export const projects = [
   {
     title: "Fudo-Food Delivery App",
@@ -17,11 +20,18 @@ export const projects = [
     git: "https://github.com/VedantNagar/Jobs-API",
   },
   {
-    title: "Project 3",
-    description: "Confidential Project",
-    image: "path-to-your-image-3",
-    link: "#",
-    git: "#",
+    title: "Todo List",
+    description: "Basic Todo List made using React.",
+    image: todo,
+    link: "https://todo-list-a4j8.onrender.com/",
+    git: "https://github.com/VedantNagar/Todo-List",
+  },
+  {
+    title: "Weather App",
+    description: "Simple Weather app made using React and OpenWeather API.",
+    image: weather,
+    link: "https://weather-app-1-3df5.onrender.com/",
+    git: "https://github.com/VedantNagar/Weather-app",
   },
 ];
 export default projects;
