@@ -22,7 +22,7 @@ function App() {
           <Contact />
           <ToastContainer />
         </div>
-        <About className="mx-0 px-0" />
+        {/*  <About className="mx-0 px-0" /> */}
       </div>
     </>
   );
