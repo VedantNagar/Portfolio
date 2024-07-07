@@ -17,6 +17,7 @@ const Project = () => {
               alt={project.title}
               className="w-full h-60 object-cover rounded-md mb-4"
             />
+
             <h3 className="text-2xl font-semibold my-3">{project.title}</h3>
             <p className="mb-4">{project.description}</p>
             <div className="flex flex-col flex-wrap">

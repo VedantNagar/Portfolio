@@ -2,6 +2,7 @@ import fudo from "../assets/projects/Fudo.png";
 import jobio from "../assets/projects/Jobio.png";
 import todo from "../assets/projects/Todo.png";
 import weather from "../assets/projects/weather.png";
+import portfolio from "../assets/projects/portfolio.png";
 
 export const projects = [
   {
@@ -32,6 +33,14 @@ export const projects = [
     image: weather,
     link: "https://weather-app-1-3df5.onrender.com/",
     git: "https://github.com/VedantNagar/Weather-app",
+  },
+  {
+    title: "My Portfolio",
+    description:
+      "My personal portfolio created using React which showcases my projects and skills.",
+    image: portfolio,
+    link: "https://vedant-portfolio-6htj.onrender.com",
+    git: "https://github.com/VedantNagar/Portfolio",
   },
 ];
 export default projects;
