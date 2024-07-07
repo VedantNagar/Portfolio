@@ -55,7 +55,7 @@ const TechStack = () => {
             <SiMysql title="MySQL" className="text-6xl text-blue-500" />
           </div>
         </div>
-        {/* Programming Languages */}
+
         <Languages />
       </div>
     </>
