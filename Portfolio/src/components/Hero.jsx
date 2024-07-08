@@ -18,11 +18,10 @@ const Hero = () => {
             of Technology, Rohini, Sec 22, New Delhi, and will graduate in 2025.
             <div>
               My skills encompass both Front-end and Back-end development, as
-              well as practical experience in Databases as well , enabling me to
-              build dynamic and responsive web applications. I am excited to
-              leverage my technical knowledge and problem-solving abilities to
-              create innovative and efficient solutions in the field of web
-              development.
+              well as Databases, enabling me to build dynamic and responsive web
+              applications. I am excited to leverage my technical knowledge and
+              problem-solving abilities to create innovative and efficient
+              solutions in the field of web development.
             </div>
           </p>
         </div>
