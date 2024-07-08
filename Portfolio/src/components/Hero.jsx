@@ -12,13 +12,18 @@ const Hero = () => {
             Full Stack Developer
           </span>
           <p className="my-2 py-4 font-light tracking-tight lg:pl-0 text-white">
-            A Fullstack web developer with a passion for building beautiful and
-            functional websites. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Porro, accusamus nemo dolorum magni error maiores
-            tenetur quisquam exercitationem sequi architecto quasi similique
-            vel. Facere ea enim accusamus nulla, unde numquam eaque dolor
-            excepturi quod placeat nihil totam non distinctio sit dolore quo!
-            Incidunt doloribus odit, pariatur eveniet ad est quo.
+            Hello! I'm Vedant Nagar, a passionate fullstack web developer with a
+            strong foundation in Computer Science and Technology. I am currently
+            pursuing my Bachelor of Technology from Maharaja Agrasen Institute
+            of Technology, Rohini, Sec 22, New Delhi, and will graduate in 2025.
+            <div>
+              My skills encompass both Front-end and Back-end development, as
+              well as practical experience in Databases as well , enabling me to
+              build dynamic and responsive web applications. I am excited to
+              leverage my technical knowledge and problem-solving abilities to
+              create innovative and efficient solutions in the field of web
+              development.
+            </div>
           </p>
         </div>
         <div className="flex justify-center w-full lg:w-2/5">
