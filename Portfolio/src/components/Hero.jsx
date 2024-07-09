@@ -15,7 +15,7 @@ const Hero = () => {
             Hello! I'm Vedant Nagar, a passionate fullstack web developer with a
             strong foundation in Computer Science and Technology. I am currently
             pursuing my Bachelor of Technology from Maharaja Agrasen Institute
-            of Technology, Rohini, Sec 22, New Delhi, and will graduate in 2025.
+            of Technology, New Delhi, and will graduate in 2025.
             <div>
               My skills encompass both Front-end and Back-end development, as
               well as Databases, enabling me to build dynamic and responsive web
