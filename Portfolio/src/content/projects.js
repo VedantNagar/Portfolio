@@ -29,6 +29,14 @@ export const projects = [
     git: "https://github.com/VedantNagar/Todo-List",
   },
   {
+    title: "Location Marker",
+    description:
+      "A MERN Stack app for creating and managing location-based pins on a map. Users can register, log in, add pins with details and manage their saved locations. This app serves as a personalized map-based bookmarking system.",
+    image: maps,
+    link: "https://location-marker.onrender.com",
+    git: "https://github.com/VedantNagar/Location-Marker",
+  },
+  {
     title: "Weather App",
     description: "Simple Weather app made using React and OpenWeather API.",
     image: weather,
@@ -42,14 +50,6 @@ export const projects = [
     image: portfolio,
     link: "https://vedant-portfolio-6htj.onrender.com",
     git: "https://github.com/VedantNagar/Portfolio",
-  },
-  {
-    title: "Location Marker",
-    description:
-      "A MERN Stack app for creating and managing location-based pins on a map. Users can register, log in, add pins with details and manage their saved locations. This app serves as a personalized map-based bookmarking system.",
-    image: maps,
-    link: "https://location-marker.onrender.com",
-    git: "https://github.com/VedantNagar/Location-Marker",
   },
 ];
 export default projects;
