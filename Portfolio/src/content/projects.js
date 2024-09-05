@@ -18,7 +18,7 @@ export const projects = [
     description:
       "A MERN Stack app which can be used for keeping track of jobs applied and its current status.",
     image: jobio,
-    link: "https://jobs-tracker-app.onrender.com/",
+    link: "https://job-tracker-mtkq.onrender.com/",
     git: "https://github.com/VedantNagar/Jobs-API",
   },
   {
@@ -33,7 +33,7 @@ export const projects = [
     description:
       "A MERN Stack app for creating and managing location-based pins on a map. Users can register, log in, add pins with details and manage their saved locations. This app serves as a personalized map-based bookmarking system.",
     image: maps,
-    link: "https://location-marker.onrender.com",
+    link: "https://location-marker-umt4.onrender.com/",
     git: "https://github.com/VedantNagar/Location-Marker",
   },
   {
